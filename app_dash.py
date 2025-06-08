@@ -5,7 +5,7 @@ from dash import Dash, dcc, html, Input, Output
 from geopy.distance import geodesic
 
 # --- Cargar datos ---
-df = pd.read_excel("/Users/pabloaraya/Library/CloudStorage/OneDrive-Personal/Datos Educativos/directorio_2024.xlsx")
+df = pd.read_excel("directorio_2024.xlsx")
 df["LATITUD"] = pd.to_numeric(df["LATITUD"], errors="coerce")
 df["LONGITUD"] = pd.to_numeric(df["LONGITUD"], errors="coerce")
 
