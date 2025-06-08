@@ -34,7 +34,7 @@ app = Dash(__name__)
 app.title = "PAC Map (Dash)"
 
 app.layout = html.Div([
-    html.H2("PAC - Visualización de Escuelas por RBD"),
+    html.H2("Visualización de Escuelas por RBD"),
 
     html.Label("Selecciona un RBD:"),
     dcc.Dropdown(
